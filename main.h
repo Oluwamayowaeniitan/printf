@@ -1,3 +1,7 @@
+#ifndef _MAIN_H_
+#define _MAIN_H_
+
+/* begin standard C header files */
 #include <stdlib.h>
 #include <stdarg.h>
 #include <unistd.h>
@@ -106,3 +110,5 @@ void p_rev_string(inventory_t *inv);
 void p_rot13(inventory_t *inv);
 void p_percent(inventory_t *inv);
 void p_binary(inventory_t *inv);
+
+#endif /* end include guard for header files */
